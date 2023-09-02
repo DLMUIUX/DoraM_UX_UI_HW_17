@@ -1,0 +1,116 @@
+/* css content */
+
+/* Header - main navigation section */
+
+body{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#012252; 
+    padding: 14px 16px;
+}
+
+.nav-text{
+    float:left;
+    display:block;
+    font-size: 15px;
+    color:#f4f5f5;
+    font-family: "Monserratt",sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    padding: 14px 16px;
+}
+
+.nav-text:hover{
+    background-color: #02407C;
+    border:2px #2F82C2
+}
+
+
+/* Content - hero section */
+
+.hero{
+  position:relative;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.hero::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background: url(/images/mountains_blue_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%);
+}
+
+.hero-content{
+    position: relative;
+    font-family: "Monserrat", sans-serif;
+    color: #f4f5f5;
+    text-align:center;
+    margin:0.625rem;
+}
+
+.hero-name{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.hero-profession{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.hero-button{
+    background-color: #012252;
+    border: 1px solid #2F82C2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #f4f5f5;
+    font-family: "Monserratt",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    line-height: 1.47059;
+    padding: 4px 15px;
+    text-align: center;
+    vertical-align: baseline;
+    margin-top: 20px;
+ }
+
+ .hero-button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+
+/* Footer - section */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#012252;
+    color: white;
+    font-family: "Monserratt",sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
